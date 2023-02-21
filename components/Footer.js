@@ -6,6 +6,7 @@ const navigation = {
     { name: "Services", href: "/patient-info/information" },
     { name: "F.A.Q.", href: "/services/service" },
     { name: "Worksheets", href: "/reviews" },
+    { name: "Preparation Options", href: "/reviews" },
     { name: "Contact", href: "/gallery" },
  
   ],

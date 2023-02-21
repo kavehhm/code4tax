@@ -50,17 +50,17 @@ export default function Home() {
         <p className="mt-6">
           We strive to exceed your expectations by providing exceptional service
           every step of the way. We are grateful for the opportunity to serve
-          each and every client to the best of our abilities.
+          each and every client to the best of our abilities. 
         </p>
       </div>
       <p
-        className="text-center m-auto w-5/6 mt-3 text-[#AA0000]"
+        className="text-center m-auto w-5/6 mt-6 text-[#AA0000]"
         style={{ fontSize: "2em" }}
       >
         Unfortunately, we are not accepting new clients at this time.{" "}
       </p>
 
-      <Image src={prep} className="mt-12 w-4/5 m-auto" />
+      <Image src={prep} className="mt-6 w-4/5 m-auto" />
 
       <div className="flex flex-col lg:flex-row w-4/5 mt-3 m-auto justify-between items-around">
         <div>
