@@ -7,7 +7,7 @@ const navigation = {
     { name: "F.A.Q.", href: "/services/service" },
     { name: "Worksheets", href: "/reviews" },
     { name: "Preparation Options", href: "/reviews" },
-    { name: "Contact", href: "/gallery" },
+    { name: "Contact", href: "/contact-us" },
  
   ],
   

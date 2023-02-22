@@ -18,7 +18,7 @@ const TopSticky = () => {
       </div>
       <a
         href={"tel:9493642121"}
-        className="text-xs w-1/4 -mt-1.5 md:-mt-1 lg:w-auto ml-0 md:ml-0 text-center  xl:text-lg  text-white  "
+        className="text-xs w-1/4  lg:w-auto ml-0 md:ml-0 text-center  xl:text-lg  text-white  "
       >
         <span className="hidden lg:inline cursor-auto">
 

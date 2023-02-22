@@ -23,7 +23,7 @@ export default function ServicePage() {
       <div className="topity sticky z-20">
         <MainNav />
       </div>
-      <div className="flex mt-12  mb-24 md:flex-row flex-col w-4/5 m-auto">
+      <div className="flex mt-12  mb-36 md:flex-row flex-col w-4/5 m-auto">
         <div className="mt-16 sticky z-10">
           <SecondaryNav moveUp={moveUp} />
         </div>

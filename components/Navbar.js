@@ -15,7 +15,7 @@ const navigation = [
   { name: "Worksheets", href: "/reviews", current: false },
   { name: "Preparation Options", href: "/preparation-options", current: false },
 
-  { name: "Contact", href: "/gallery", current: false },
+  { name: "Contact", href: "/contact-us", current: false },
  
 ];
 
@@ -30,7 +30,7 @@ export default function MainNav() {
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 ">
             <div className="relative flex h-24 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
+              <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-blue-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
@@ -44,17 +44,17 @@ export default function MainNav() {
               <div className="flex flex-1 items-center justify-center ">
                 <div className="flex flex-shrink-0 items-center">
                   <Image
-                    className="block h-20 w-auto md:hidden"
+                    className="block h-20 w-auto lg:hidden"
                     src={logo}
                     alt="Code-4 Tax"
                   />
                   <Image
-                    className="hidden h-20 w-auto md:block"
+                    className="hidden h-20 w-auto lg:block"
                     src={logo}
                     alt="Code-4 Tax"
                   />
                 </div>
-                <div className="hidden sm:ml-6 md:block">
+                <div className="hidden sm:ml-6 lg:block">
                   <div className="whitespace-nowrap flex space-x-4">
                     {navigation.map((item) => (
                       <Link
@@ -64,7 +64,7 @@ export default function MainNav() {
                           item.current
                             ? "bg-gray-900 text-white"
                             : "text-white hover:bg-blue-300 hover:text-black",
-                          "lg:px-6 px-2 py-2 rounded-md xl:text-base  font-bold"
+                          "xl:px-6 px-2 py-2 rounded-md xl:text-base  font-bold"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -77,7 +77,7 @@ export default function MainNav() {
             </div>
           </div>
 
-          <Disclosure.Panel className="md:hidden">
+          <Disclosure.Panel className="lg:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
                 <Disclosure.Button
