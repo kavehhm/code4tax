@@ -28,8 +28,8 @@ export default function ServicePage() {
           <SecondaryNav moveUp={moveUp} />
         </div>
         <div className="md:w-4/5  pb-24 md:ml-12 scroll-mt-16   m-auto mt-12  ">
-          <h1 className="text-2xl text-[#AA0000] text-center">{header}</h1>
-          <p className="md:w-4/5 m-auto mt-12">{words}</p>
+          <h1  style={{ fontSize: "2em" }} className=" text-[#AA0000] text-center">{header}</h1>
+          <p className="md:w-4/5 text-xl m-auto mt-12">{words}</p>
         </div>
       </div>
       <Footer />
