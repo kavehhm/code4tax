@@ -4,7 +4,7 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 const faqs = [
   {
     question:
-      "Pricing (word the question however you want…what is your average price or how much do you charge,etc.) ",
+      "How much do you charge?",
     answer:
       "Our prices are based upon which forms we end up using in the preparation of your return. In general, our prices are on the lower end of the fee spectrum, compared to other tax preparation organizations. On average, a return with itemized deductions and one state return is about $300. We also prepare “kid” returns for your dependents. A basic kid return (W-2’s only), is $30.",
   },

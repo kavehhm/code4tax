@@ -56,7 +56,7 @@ export default function Contact() {
           </p>
         </div>
         <div className="">
-          <h2 className="font-bold text-[#26176B] mb-8">Hours of Operation:</h2>
+          <h2 className="font-bold text-[#26176B] mb-8">Hours of Operation, Tax Season:</h2>
           <div className="flex">
             <div className="mr-24 md:mr-8">
               <p className="font-semibold pb-[1px]">Monday</p>
