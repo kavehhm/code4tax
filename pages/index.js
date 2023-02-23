@@ -23,9 +23,9 @@ export default function Home() {
       <Image className="w-full" src={homeimg} /> 
       <div
             onClick={buttonHandler}
-            className="bg-[#AA0000] absolute left-1/2 -mt-28   hidden md:flex content-center items-center justify-center rounded-full  cursor-pointer shadow-md transition-all duration-75 hover:shadow-[#c83f3f] opacity-70 w-16 h-16 text-center text-white"
+            className="bg-[#AA0000] absolute left-1/2 -mt-28 text-2xl   hidden md:flex content-center font-bold items-center justify-center rounded-full  cursor-pointer shadow-md transition-all duration-75 hover:shadow-[#c83f3f] opacity-80 w-16 h-16 text-center text-white"
           >
-            <p className="arrow-down">🡇</p>
+            <p className="arrow-down">↓</p>
           </div>
 
       <h1
