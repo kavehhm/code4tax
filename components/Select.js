@@ -9,7 +9,7 @@ const people = [
   { id: 3, name: "Firefighter", path: "/pdf/FireFighter.pdf" },
   { id: 4, name: "Home Office ", path: "/pdf/HomeOffice.pdf" },
   { id: 5, name: "Law Enforcement", path: "/pdf/LawEnforcement.pdf" },
-  { id: 6, name: "Nurse", path: "Nurse.pdf" },
+  { id: 6, name: "Nurse", path: "/pdf/Nurse.pdf" },
   { id: 7, name: "Property Sale", path: "/pdf/PropertySale.pdf" },
   { id: 8, name: "Real Estate", path: "/pdf/RealEstate.pdf" },
   { id: 9, name: "Rental", path: "/pdf/Rental.pdf" },
