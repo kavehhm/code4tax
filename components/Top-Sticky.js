@@ -9,7 +9,7 @@ const TopSticky = () => {
           className="links "
           href="/contact-us"
         >
-          Mailing Address: 22431 Antonio Parkway B160-482 <br className='md:inline hidden'></br> Rancho Santa Margarita, CA 92688
+          Mailing Address<span className='hidden sm:inline'>: 22431 Antonio Parkway B160-482 <br className='md:inline hidden'></br> Rancho Santa Margarita, CA 92688</span>
         </Link>
       </div>
       <div className=" ml-6 md:ml-0  mr-2 md:mr-0 text-white  flex">

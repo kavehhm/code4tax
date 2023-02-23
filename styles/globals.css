@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .topity {
-  margin-top: 3.5rem;
+  margin-top: 2.55rem;
 }
 
 .home {
@@ -23,6 +23,11 @@ padding-bottom: 1px
 
 
 
+@media only screen and (min-width: 	640px) {
+  .topity {
+    margin-top: 3.5rem;
+  }
+}
 @media only screen and (min-width: 768px) {
   .topity {
     margin-top: 3rem;
