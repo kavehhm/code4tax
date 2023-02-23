@@ -104,7 +104,7 @@ export default function Home() {
 
       <Image
         src={eevee}
-        className="w-2/5 m-auto mt-12"
+        className="md:w-2/5 md:3/5 m-auto mt-12"
         alt="Dog of the founders"
       />
       <p className="text-xl text-[#AA0000] text-center mb-12 mt-3">
