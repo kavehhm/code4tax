@@ -19,13 +19,13 @@ const TopSticky = () => {
         href={"tel:9493642121"}
         className="text-xs w-1/4  lg:w-auto ml-0 md:ml-0 text-center  xl:text-lg  text-white  "
       >
-        <span className="hidden lg:inline cursor-auto">
+        <span className="hidden whitespace-nowrap lg:inline cursor-auto">
 
         Call Us:{" "}
         </span>
         
         <span className="block links md:inline text-center">
-          <span className=" md:inline  md:text-xl lg:text-xl">✆</span> 1
+          <span className=" md:inline   lg:text-xl">✆</span> 1
           (949) 364-2121
         </span>
       </a>
