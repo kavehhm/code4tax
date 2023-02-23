@@ -42,7 +42,7 @@ const Treatments = () => {
         <Service
           service="AUDITS / APPEALS"
           link="/services/audits-and-appeals"
-          description="We will provide guidance and representation for any IRS audit or appeal on a return that we have prepared free..."
+          description="We will provide guidance and representation for any IRS audit or appeal on a return that we..."
         />
         <Service
           service="AMMENDED RETURNS"
