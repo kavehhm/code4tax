@@ -13,7 +13,7 @@ const people = [
   { id: 7, name: "Property Sale", path: "/pdf/PropertySale.pdf" },
   { id: 8, name: "Real Estate", path: "/pdf/RealEstate.pdf" },
   { id: 9, name: "Rental", path: "/pdf/Rental.pdf" },
-  { id: 10, name: "Small Business", path: "/pdf/Smallbiz.pdf" },
+  { id: 10, name: "Small Business", path: "/pdf/SmallBiz.pdf" },
 ];
 
 function classNames(...classes) {
