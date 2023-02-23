@@ -4,6 +4,7 @@ import Dropdown from "@/components/Select";
 import { useEffect, useState } from "react";
 import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 
 export default function Worksheets() {
@@ -19,6 +20,13 @@ export default function Worksheets() {
 
   return (
     <div>
+    <Head>
+        <title>Worksheets</title>
+        <meta
+          name="description"
+          content="Here you can download the worksheets you will need for your appointment with us."
+        />
+    </Head>
       <TopSticky />
       <div className="topity sticky z-20">
         <MainNav />

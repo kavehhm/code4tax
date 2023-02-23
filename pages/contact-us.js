@@ -1,10 +1,18 @@
 import TopSticky from "@/components/Top-Sticky";
 import MainNav from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 export default function Contact() {
   return (
     <div>
+      <Head>
+        <title>Contact Us</title>
+        <meta
+          name="description"
+          content="Different ways to contact us along with our hours of operation"
+        />
+      </Head>
       <TopSticky />
       <div className="topity sticky z-20">
         <MainNav />

@@ -1,10 +1,18 @@
 import TopSticky from "@/components/Top-Sticky";
 import MainNav from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 export default function Preparation() {
   return (
     <div>
+      <Head>
+        <title>Preparation Options</title>
+        <meta
+          name="description"
+          content="Different ways you can prepare for your appointment with us."
+        />
+      </Head>
       <TopSticky />
       <div className="topity sticky z-10">
         <MainNav />

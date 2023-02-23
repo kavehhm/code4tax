@@ -7,26 +7,34 @@ import prep from "../public/msc/prep2.jpg";
 import eevee from "../public/msc/eevee.png";
 import Footer from "@/components/Footer";
 import { useRef } from "react";
+import Head from "next/head";
 
 export default function Home() {
   const resultRef = useRef();
 
-    const buttonHandler = () => {
+  const buttonHandler = () => {
     resultRef.current.scrollIntoView({ behavior: "smooth" });
   };
   return (
     <div>
+      <Head>
+        <title>Code-4 Tax</title>
+        <meta
+          name="description"
+          content="At Code-4 Tax, we specialize in providing full-service tax preparation for individuals and small businesses, specializing in public safety (law enforcement and fire services), healthcare providers, and educators"
+        />
+      </Head>
       <TopSticky />
       <div className="topity sticky z-10">
         <MainNav />
       </div>
-      <Image className="w-full" src={homeimg} /> 
+      <Image className="w-full" src={homeimg} />
       <div
-            onClick={buttonHandler}
-            className="bg-[#AA0000] absolute left-1/2 -mt-28 text-2xl   hidden md:flex content-center font-bold items-center justify-center rounded-full  cursor-pointer shadow-md transition-all duration-75 hover:shadow-[#c83f3f] opacity-80 w-16 h-16 text-center text-white"
-          >
-            <p className="arrow-down">↓</p>
-          </div>
+        onClick={buttonHandler}
+        className="bg-[#AA0000] absolute left-1/2 -mt-28 text-2xl   hidden md:flex content-center font-bold items-center justify-center rounded-full  cursor-pointer shadow-md transition-all duration-75 hover:shadow-[#c83f3f] opacity-80 w-16 h-16 text-center text-white"
+      >
+        <p className="arrow-down">↓</p>
+      </div>
 
       <h1
         style={{ fontSize: "2.5em" }}
@@ -63,7 +71,7 @@ export default function Home() {
         <p className="mt-6">
           We strive to exceed your expectations by providing exceptional service
           every step of the way. We are grateful for the opportunity to serve
-          each and every client to the best of our abilities. 
+          each and every client to the best of our abilities.
         </p>
       </div>
       <p
@@ -78,7 +86,9 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-4/5 mt-3 m-auto justify-between items-around">
         <div>
           <p className="text-2xl font-bold text-[#AA0000]">CALL US:</p>
-          <a href={"tel:9493642121"} className="text-[#26176B] links text-xl">(949) 364-2121</a>
+          <a href={"tel:9493642121"} className="text-[#26176B] links text-xl">
+            (949) 364-2121
+          </a>
         </div>
         <div className="mt-3 lg:mt-0">
           <p className="text-2xl font-bold text-[#AA0000]">

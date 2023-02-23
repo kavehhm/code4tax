@@ -4,6 +4,7 @@ import MainNav from "@/components/Navbar";
 import SecondaryNav from "@/components/SecondaryNav";
 import { useState } from "react";
 import Footer from "@/components/Footer";
+import { Head } from "next/head";
 
 export default function ServicePage() {
   const router = useRouter();
@@ -17,8 +18,16 @@ export default function ServicePage() {
     setWords(text);
   };
 
+
   return (
     <div className="min-h-full relative ">
+      <Head>
+        <title>Services</title>
+        <meta
+          name="description"
+          content="The services we provide at Code-4 Tax"
+        />
+      </Head>
       <TopSticky />
       <div className="topity sticky z-20">
         <MainNav />
