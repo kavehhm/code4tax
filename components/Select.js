@@ -3,16 +3,17 @@ import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
 const people = [
-  { id: 1, name: "Educator Deductions", path: "/pdf/EducatorDeductions.pdf" },
-  { id: 2, name: "Farm-Ranch Businesses", path: "/pdf/FarmRanch.pdf" },
-  { id: 3, name: "Firefighters", path: "/pdf/FireFighter.pdf" },
-  { id: 4, name: "Home Offices ", path: "/pdf/HomeOffice.pdf" },
+  { id: 0, name: "General", path: "/pdf/General.pdf" },
+  { id: 1, name: "Educator", path: "/pdf/EducatorDeductions.pdf" },
+  { id: 2, name: "Farm-Ranch", path: "/pdf/FarmRanch.pdf" },
+  { id: 3, name: "Firefighter", path: "/pdf/FireFighter.pdf" },
+  { id: 4, name: "Home Office ", path: "/pdf/HomeOffice.pdf" },
   { id: 5, name: "Law Enforcement", path: "/pdf/LawEnforcement.pdf" },
-  { id: 6, name: "Nurses", path: "Nurse.pdf" },
+  { id: 6, name: "Nurse", path: "Nurse.pdf" },
   { id: 7, name: "Property Sale", path: "/pdf/PropertySale.pdf" },
   { id: 8, name: "Real Estate", path: "/pdf/RealEstate.pdf" },
-  { id: 9, name: "Rentals", path: "/pdf/Rental.pdf" },
-  { id: 10, name: "Small Businesses", path: "/pdf/Smallbiz.pdf" },
+  { id: 9, name: "Rental", path: "/pdf/Rental.pdf" },
+  { id: 10, name: "Small Business", path: "/pdf/Smallbiz.pdf" },
 ];
 
 function classNames(...classes) {
@@ -20,7 +21,7 @@ function classNames(...classes) {
 }
 
 export default function Dropdown(props) {
-  const [selected, setSelected] = useState(people[3]);
+  const [selected, setSelected] = useState(people[0]);
 
   useEffect(() => {
     props.moveSelected(selected);

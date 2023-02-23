@@ -17,7 +17,7 @@ export default function Home() {
       <Image className="w-full" src={homeimg} />
 
       <h1
-        style={{ fontSize: "3em" }}
+        style={{ fontSize: "2.5em" }}
         className=" text-center font-bold mt-6 text-[#26176B]"
       >
         WELCOME TO<br></br>CODE-4 TAX SERVICES
