@@ -78,7 +78,7 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-4/5 mt-3 m-auto justify-between items-around">
         <div>
           <p className="text-2xl font-bold text-[#AA0000]">CALL US:</p>
-          <p className="text-[#26176B] text-xl">(949) 364-2121</p>
+          <a href={"tel:9493642121"} className="text-[#26176B] links text-xl">(949) 364-2121</a>
         </div>
         <div className="mt-3 lg:mt-0">
           <p className="text-2xl font-bold text-[#AA0000]">

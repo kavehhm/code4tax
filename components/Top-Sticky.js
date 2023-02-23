@@ -1,20 +1,19 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 const TopSticky = () => {
   return (
     <div className="bg-[#AA0000] items-center  top-0 flex justify-around  fixed  z-50 w-full text-white py-3 md:py-2 px-2 md:px-4 lg:px-24">
       <div className="text-xs  md:ml-0  xl:text-lg  text-white  ">
-        <a
-          target="_blank"
+        <Link
           className="links "
-          rel="noreferrer"
-          href="google.com"
+          href="/contact-us"
         >
-          <span className="hidden lg:inline cursor-auto">P.O. Box:</span> 22341 Antonio Parkway B160-482 <span className="hidden lg:inline"> - RSM </span> 
-        </a>
+          Mail To Us 
+        </Link>
       </div>
       <div className=" ml-6 md:ml-0  mr-2 md:mr-0 text-white  flex">
-       <p className='text-xs xl:text-lg'><span className="hidden lg:inline">E-Mail Us:</span> eleanor@code-4tax.com</p>
+       <a href='mailto:eleanor@code-4tax.com' className='text-xs  xl:text-lg'><span className=" cursor-auto hidden lg:inline">E-Mail Us:</span> <span className='links'>eleanor@code-4tax.com</span></a>
       </div>
       <a
         href={"tel:9493642121"}

@@ -20,15 +20,15 @@ export default function Contact() {
           <h1 className="mb-8 text-xl text-[#26176B] font-bold">Code-4 Tax</h1>
           <p className=" mb-6 font-semibold text-xl">
             Mailing Address:{" "}
-            <a
-              className="text-black links font-normal inline  "
+            <p
+              className="text-black  font-normal inline  "
               target="_blank"
               rel="noreferrer"
               href="https://www.google.com/maps/dir//Blossoming+Smiles/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80dceba6554e13e3:0xe91cae007c5e6261?sa=X&ved=2ahUKEwjGman3m7n8AhXWC0QIHeRKAsEQ9Rd6BAhsEAQ"
             >
               22431 Antonio Parkway,<br></br> Suite B160-482   Rancho Santa
               Margarita, <br></br> CA 92688
-            </a>{" "}
+            </p>{" "}
           </p>
           <p className="mb-6 font-semibold ">
             Phone:{" "}
