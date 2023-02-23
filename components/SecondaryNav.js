@@ -29,7 +29,7 @@ const navigation = [
     current: false,
   },
   {
-    name: "corporations/partnerships",
+    name: "corporations / partnerships",
     href: "corporations-and-partnerships",
     text: "We will prepare returns for basic level C Corp, S Corp or Partnerships, including all required supporting schedules and forms, as well as state forms. We will use our discretion as to what level of complexity we are willing to take on, as more complex corporate issues should be handled by Corporate Tax specialists and would be beyond the scope of the services we are prepared to offer.",
     current: false,
@@ -47,7 +47,7 @@ const navigation = [
     current: false,
   },
   {
-    name: "audits/appeals",
+    name: "audits / appeals",
     href: "audits-and-appeals",
     text: "We will provide guidance and representation for any IRS audit or appeal on a return that we have prepared free of charge. Representation/assistance for an issue arising from a return not prepared by us will be determined on a case by case basis.",
     current: false,

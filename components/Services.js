@@ -24,7 +24,7 @@ const Treatments = () => {
           description=" We will prepare the return to report the income and expenses related to any passive, active..."
         />
         <Service
-          service="CORPORATIONS/PARTNERSHIPS"
+          service="CORPORATIONS / PARTNERSHIPS"
           link="/services/corporations-and-partnerships"
           description="We will prepare returns for basic level C Corp, S Corp or Partnerships, including..."
         />
@@ -40,7 +40,7 @@ const Treatments = () => {
           description="All our personal returns come with “insurance” through Protection Plus, which provides assistance for..."
         />
         <Service
-          service="AUDITS/APPEALS"
+          service="AUDITS / APPEALS"
           link="/services/audits-and-appeals"
           description="We will provide guidance and representation for any IRS audit or appeal on a return that we have prepared free..."
         />
