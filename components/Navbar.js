@@ -12,7 +12,7 @@ const navigation = [
     current: false,
   },
   { name: "F.A.Q.", href: "/faq", current: false },
-  { name: "Worksheets", href: "/reviews", current: false },
+  { name: "Worksheets", href: "/worksheets", current: false },
   { name: "Preparation Options", href: "/preparation-options", current: false },
 
   { name: "Contact", href: "/contact-us", current: false },
