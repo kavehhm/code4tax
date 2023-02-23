@@ -4,7 +4,7 @@ import MainNav from "@/components/Navbar";
 import SecondaryNav from "@/components/SecondaryNav";
 import { useState } from "react";
 import Footer from "@/components/Footer";
-import { Head } from "next/head";
+import Head from "next/head";
 
 export default function ServicePage() {
   const router = useRouter();
