@@ -2,8 +2,8 @@ import MainNav from "@/components/Navbar";
 import Treatments from "@/components/Services";
 import TopSticky from "@/components/Top-Sticky";
 import Image from "next/image";
-import homeimg from "../public/msc/homeimg.jpeg";
-import prep from "../public/msc/prep.jpeg";
+import homeimg from "../public/msc/homeimg2.jpg";
+import prep from "../public/msc/prep2.jpg";
 import eevee from "../public/msc/eevee.png";
 import Footer from "@/components/Footer";
 
@@ -65,13 +65,13 @@ export default function Home() {
       <div className="flex flex-col lg:flex-row w-4/5 mt-3 m-auto justify-between items-around">
         <div>
           <p className="text-2xl font-bold text-[#AA0000]">CALL US:</p>
-          <p className="text-[#26176B]">(949) 364-2121</p>
+          <p className="text-[#26176B] text-xl">(949) 364-2121</p>
         </div>
         <div className="mt-3 lg:mt-0">
           <p className="text-2xl font-bold text-[#AA0000]">
             MAIL DOCUMENTS TO US:
           </p>
-          <p className="text-[#26176B]">
+          <p className="text-[#26176B] text-xl">
             22431 Antonio Parkway, Suite B160-482 Rancho Santa Margarita, CA
             92688
           </p>
