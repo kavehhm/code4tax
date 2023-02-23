@@ -25,7 +25,7 @@ const TopSticky = () => {
         </span>
         
         <span className="block links md:inline text-center">
-          <span className=" md:inline text-base md:text-xl lg:text-xl">✆</span> 1
+          <span className=" md:inline  md:text-xl lg:text-xl">✆</span> 1
           (949) 364-2121
         </span>
       </a>
