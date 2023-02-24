@@ -34,7 +34,7 @@ export default function Contact() {
               rel="noreferrer"
               href="https://www.google.com/maps/dir//Blossoming+Smiles/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x80dceba6554e13e3:0xe91cae007c5e6261?sa=X&ved=2ahUKEwjGman3m7n8AhXWC0QIHeRKAsEQ9Rd6BAhsEAQ"
             >
-              22431 Antonio Parkway,<br></br> Suite B160-482   Rancho Santa
+              22431 Antonio Parkway,<br></br> B160-482   Rancho Santa
               Margarita, <br></br> CA 92688
             </p>{" "}
           </p>

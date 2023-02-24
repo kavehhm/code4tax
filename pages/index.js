@@ -95,7 +95,7 @@ export default function Home() {
             MAIL DOCUMENTS TO US:
           </p>
           <p className="text-[#26176B] text-xl">
-            22431 Antonio Parkway, Suite B160-482 Rancho Santa Margarita, CA
+            22431 Antonio Parkway, B160-482 Rancho Santa Margarita, CA
             92688
           </p>
         </div>
