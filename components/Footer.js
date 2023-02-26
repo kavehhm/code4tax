@@ -3,8 +3,8 @@ import Link from 'next/link';
 const navigation = {
   main: [
     { name: "Home", href: "/home" },
-    { name: "Services", href: "/patient-info/information" },
-    { name: "F.A.Q.", href: "/services/service" },
+    { name: "Services", href: "/services/personal-returns" },
+    { name: "F.A.Q.", href: "/faq" },
     { name: "Worksheets", href: "/worksheets" },
     { name: "Preparation Options", href: "/preparation-options" },
     { name: "Contact", href: "/contact-us" },

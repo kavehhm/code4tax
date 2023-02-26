@@ -34,7 +34,7 @@ export default function Preparation() {
           documents.
         </p>
         <p className="mb-8">
-          <span className="font-semibold text-[#26176B] text-2xl">Main-in: </span> <br></br> If
+          <span className="font-semibold text-[#26176B] text-2xl">Mail-in: </span> <br></br> If
           your return is fairly straightforward and “simple”, you can opt to
           forego the scheduled appointment and use this streamlined process. You
           would send us your documents and completed worksheets by either

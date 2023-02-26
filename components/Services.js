@@ -26,7 +26,7 @@ const Treatments = () => {
         <Service
           service="CORPORATIONS / PARTNERSHIPS"
           link="/services/corporations-and-partnerships"
-          description="We will prepare returns for basic level C Corp, S Corp or Partnerships, including..."
+          description="We will prepare returns for basic level C Corp, S Corp or Partnerships..."
         />
 
         <Service
