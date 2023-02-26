@@ -57,7 +57,7 @@ export default function Contact() {
           <p className=" font-semibold  ">
             Fax:{" "}
               <span className="text-black font-normal  links inline ">
-                866-794-9998
+                (866) 794-9998
               </span>
           </p>
         </div>
