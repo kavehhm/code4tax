@@ -45,8 +45,8 @@ const Treatments = () => {
           description="We will provide guidance and representation for any IRS audit or appeal on a return that we..."
         />
         <Service
-          service="AMMENDED RETURNS"
-          link="/services/ammended-returns"
+          service="AMENDED RETURNS"
+          link="/services/amended-returns"
           description="If you receive a corrected W-2 or 1099, or discover that a document or information was missing at the time..."
         />
        

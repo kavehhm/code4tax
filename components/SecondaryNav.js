@@ -53,8 +53,8 @@ const navigation = [
     current: false,
   },
   {
-    name: "ammended returns",
-    href: "ammended-returns",
+    name: "amended returns",
+    href: "amended-returns",
     text: "If you receive a corrected W-2 or 1099, or discover that a document or information was missing at the time your original return was prepared, we will prepare the amended return at a minimal charge. If an amendment or change is required due to an oversight or error on our part, the amendment will be at no charge.",
     current: false,
   },

@@ -45,7 +45,7 @@ export default function Worksheets() {
           </p>
           <p className="mb-12 text-2xl">
             Every client should be using the General Information worksheet. The
-            other worksheets are based on your particular situation or needs
+            other worksheets are based on your particular situation or needs.
           </p>
           <p className="text-2xl">
             Although the worksheets were created with these professions in mind,
