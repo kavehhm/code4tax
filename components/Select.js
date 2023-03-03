@@ -48,7 +48,10 @@ export default function Dropdown(props) {
             <Transition
               show={open}
               as={Fragment}
-              leave="transition ease-in duration-100"
+              enter="transition-opacity duration-75"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="transition-opacity duration-150"
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
