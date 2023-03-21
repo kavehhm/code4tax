@@ -8,6 +8,7 @@ import eevee from "../public/msc/eevee.png";
 import Footer from "@/components/Footer";
 import { useRef } from "react";
 import Head from "next/head";
+import { Transition } from "@headlessui/react";
 
 export default function Home() {
   const resultRef = useRef();
